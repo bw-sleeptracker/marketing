@@ -62,7 +62,7 @@ Color Scheme:
 */
 
 *{
-    border: 1px solid red;
+    border: 1px dashed red;
 }
 
 /* Semantic Styled */
@@ -78,27 +78,29 @@ display: flex;
 flex-flow: row nowrap;
 /* justify-content: space-around; */
 padding: 1rem;
-width: 80%;
+width: 60%;
 margin: 1rem auto;
-border: 2px solid red;
 justify-content: space-between;
 }
 
-nav{
-
+p{
+    display:flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    border: 1px dashed red;
     
 }
+
 a{
     padding: 1rem;
     color:#F8E9A1;
 }
-h1{
-    
 
-}
     /* Main contains flex */
 main{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     display:flex;
     flex-flow: row nowrap;
@@ -106,13 +108,27 @@ main{
 }
 
 /* Class Specific Styles */
-.photoContainer{
+.evenSpace{
     
+    display:flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+#logo{
+    /* width: 25%;
+    height: 25%; */
+    display: inline-block;
 }
 
 
-
-/* 
 .colorCheck1{
     background-color: #f8e9a1;
     width: 200px;
@@ -137,4 +153,4 @@ main{
     background-color: #243053;
     width: 200px;
     height: 200px;
-} */
+}
