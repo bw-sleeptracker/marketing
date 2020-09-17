@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/**********************/
+/*Styling Begins Here */
+/**********************/
+/* 
+Color Scheme:
+(Test)
+#F8E9A1 _ yellowy
+#F76C6C _ salmon
+#A8D0E6 _ light blue
+#374785 _ medium blue
+#243053 _ dark blue
+*/
+
+*{
+    border: 1px solid red;
+}
+
+/* Semantic Styled */
+body{
+    background-color: #374785;
+    color: white;
+    width: 100%;
+}
+
+    /* Header contains flex */
+header{
+display: flex;
+flex-flow: row nowrap;
+/* justify-content: space-around; */
+padding: 1rem;
+width: 80%;
+margin: 1rem auto;
+border: 2px solid red;
+justify-content: space-between;
+}
+
+nav{
+
+    
+}
+a{
+    
+    color:white;
+
+}
+h1{
+    
+
+}
+    /* Main contains flex */
+main{
+    
+    
+}
+footer{
+    
+}
+
+section{
+    
+}
+img{
+    ;
+}
+
+/* Class Specific Styles */
+.navTitle{
+    
+}
+.photoContainer {
+    
+    }
+
+
+
+/* 
+.colorCheck1{
+    background-color: #f8e9a1;
+    width: 200px;
+    height: 200px;
+}
+.colorCheck2{
+    background-color: #F76C6C;
+    width: 200px;
+    height: 200px;
+}
+.colorCheck3{
+    background-color: #A8D0E6;
+    width: 200px;
+    height: 200px;
+}
+.colorCheck4{
+    background-color: #374785;
+    width: 200px;
+    height: 200px;
+}
+.colorCheck5{
+    background-color: #243053;
+    width: 200px;
+    height: 200px;
+} */
