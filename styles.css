@@ -89,9 +89,8 @@ nav{
     
 }
 a{
-    
-    color:white;
-
+    padding: 1rem;
+    color:#F8E9A1;
 }
 h1{
     
@@ -99,27 +98,17 @@ h1{
 }
     /* Main contains flex */
 main{
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+    flex-flow: row nowrap;
     
-    
-}
-footer{
-    
-}
-
-section{
-    
-}
-img{
-    ;
 }
 
 /* Class Specific Styles */
-.navTitle{
+.photoContainer{
     
 }
-.photoContainer {
-    
-    }
 
 
 
