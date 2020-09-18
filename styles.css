@@ -61,96 +61,71 @@ Color Scheme:
 #243053 _ dark blue
 */
 
-*{
-    border: 1px dashed red;
-}
 
 /* Semantic Styled */
 body{
     background-color: #374785;
     color: white;
     width: 100%;
-}
-
-    /* Header contains flex */
+} 
 header{
-display: flex;
-flex-flow: row nowrap;
-/* justify-content: space-around; */
-padding: 1rem;
-width: 60%;
-margin: 1rem auto;
-justify-content: space-between;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: .5em;
+    padding: 1rem;
+    width: 60%;
+    margin: 1rem auto;
+    justify-content: space-between;
 }
-
+a{
+    padding: 1rem;
+    color:#F8E9A1;
+}
 p{
     display:flex;
     flex-flow: column nowrap;
     text-align: center;
     font-size: 1.2rem;
     justify-content: space-around;
-    border: 1px dashed red;
+    
     
 }
-
-a{
-    padding: 1rem;
-    color:#F8E9A1;
-}
-
-    /* Main contains flex */
 main{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     display:flex;
     flex-flow: row nowrap;
     
 }
+img{
+    
+}
 
 /* Class Specific Styles */
-.evenSpace{
-    
-    display:flex;
-    flex-flow: column nowrap;
-    text-align: center;
-    width: 33%;
-    align-items: center;
-    justify-content: center;
-}
+
 .responsive {
     width: 100%;
     height: auto;
-    max-width: 100%;
+    
   }
+.salesPitch{
+    display:flex;
+    flex-flow: column nowrap;
+}
+.mainPhoto{
+
+}
+
 #logo{
     /* width: 25%;
     height: 25%; */
     display: inline-block;
 }
+.divContainer{
+    display:flex;
+    flex-flow: row nowrap;
+}
+.detailDiv{
+    
+}
 
-
-.colorCheck1{
-    background-color: #f8e9a1;
-    width: 200px;
-    height: 200px;
-}
-.colorCheck2{
-    background-color: #F76C6C;
-    width: 200px;
-    height: 200px;
-}
-.colorCheck3{
-    background-color: #A8D0E6;
-    width: 200px;
-    height: 200px;
-}
-.colorCheck4{
-    background-color: #374785;
-    width: 200px;
-    height: 200px;
-}
-.colorCheck5{
-    background-color: #243053;
-    width: 200px;
-    height: 200px;
-}
