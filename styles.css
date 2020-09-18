@@ -62,9 +62,9 @@ Color Scheme:
 */
 
 
-/* Semantic Styled */
+/* Semantic Styles */
 body{
-    background-color: #A8D0E6;
+    background-color: #374785;
     color: F76C6C;
     width: 100%;
 } 
@@ -102,13 +102,34 @@ main{
     
 }
 footer{
-
+    display:flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+    align-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Class Specific Styles */
-.outerShell * {
-    border: solid white 1px;
-}
+
 .responsive {
     width: 100%;
     height: auto;
@@ -117,43 +138,64 @@ footer{
 .salesPitch{
     display:flex;
     flex-flow: column nowrap;
+    border-bottom: solid white .1em;
 }
 
-#logo{
-    /* width: 25%;
-    height: 25%; */
-    display: inline-block;
-}
 .divContainer{
     display:flex;
     flex-flow: row nowrap;
+   
+    border-bottom: solid white .1em;
 }
-.detailDiv{
+
+.button {
+    background-color: #F76C6C; /* Green */
+    border: none;
+    color: white;
+    padding: .8rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8rem;
     
+  }
+
+.fakeButton {
+    background-color: #f8e9a1; /* Green */
+    border: none;
+    color: #243053;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+
+.salesBox{
+    padding: 10px;
+    margin: 5px auto;
+    background-color: #243053;
+    color:white;
+    border-top: solid white .1em;
+    border-bottom: solid white .1em;
 }
-
-
-/* 
-Color Scheme:
-(Test)
-#F8E9A1 _ yellowy
-#F76C6C _ salmon
-#A8D0E6 _ light blue
-#374785 _ medium blue
-#243053 _ dark blue
- */
-
-/* Pink */
 .colorBox1{
     background-color: #F76C6C;
+    color:white;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
-/* Yellow */
 .colorBox2{
-    background-color: #F76C6C;
+    background-color: #243053;
+    color:white;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
-/* Medium Blue */
-.colorBox3{
-    background-color: #374785;
-    color: #f8e9a1;
+
+
+
+/* IDs */
+#bottom{
+    margin: 0 auto;
 }
