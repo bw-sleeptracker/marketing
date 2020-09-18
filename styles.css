@@ -64,8 +64,8 @@ Color Scheme:
 
 /* Semantic Styled */
 body{
-    background-color: #374785;
-    color: white;
+    background-color: #A8D0E6;
+    color: F76C6C;
     width: 100%;
 } 
 header{
@@ -79,7 +79,11 @@ header{
 }
 a{
     padding: 1rem;
-    color:#F8E9A1;
+    color:#F76C6C;
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Palatino', Arial, Helvetica, sans-serif
 }
 p{
     display:flex;
@@ -91,18 +95,20 @@ p{
     
 }
 main{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     display:flex;
     flex-flow: row nowrap;
     
 }
-img{
-    
+footer{
+
 }
 
 /* Class Specific Styles */
-
+.outerShell * {
+    border: solid white 1px;
+}
 .responsive {
     width: 100%;
     height: auto;
@@ -111,9 +117,6 @@ img{
 .salesPitch{
     display:flex;
     flex-flow: column nowrap;
-}
-.mainPhoto{
-
 }
 
 #logo{
@@ -129,3 +132,28 @@ img{
     
 }
 
+
+/* 
+Color Scheme:
+(Test)
+#F8E9A1 _ yellowy
+#F76C6C _ salmon
+#A8D0E6 _ light blue
+#374785 _ medium blue
+#243053 _ dark blue
+ */
+
+/* Pink */
+.colorBox1{
+    background-color: #F76C6C;
+}
+/* Yellow */
+.colorBox2{
+    background-color: #F76C6C;
+}
+
+/* Medium Blue */
+.colorBox3{
+    background-color: #374785;
+    color: #f8e9a1;
+}
