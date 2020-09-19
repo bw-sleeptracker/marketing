@@ -65,45 +65,57 @@ Color Scheme:
 /* Semantic Styles */
 body{
     background-color: #374785;
-    color: F76C6C;
+    color: #F76C6C;
     width: 100%;
 } 
 header{
     display: flex;
     flex-flow: row nowrap;
     min-height: .5em;
-    padding: 1rem;
-    width: 60%;
-    margin: 1rem auto;
-    justify-content: space-between;
+    width: 82%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+/* Added Later */
+    background-color: #374785;
+    
+}
+nav{
+    padding:1rem;
 }
 a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #F76C6C;
     padding: 1rem;
-    color:#F76C6C;
 }
+
 h1{
     font-size: 2rem;
     font-family: 'Palatino', Arial, Helvetica, sans-serif
 }
-p{
-    display:flex;
-    flex-flow: column nowrap;
+h2 {
+    font-size: 1.3rem;
     text-align: center;
-    font-size: 1.2rem;
-    justify-content: space-around;
-    
+    margin-top: .2rem;
+}
+p{
+    /* font-size: 1.0rem;
+    text-align: justify; */
+    padding: 1rem;
     
 }
 main{
-    width: 60%;
+    width: 82%;
     margin: 0 auto;
     display:flex;
     flex-flow: row nowrap;
+    /* Added Later */
+    background-color: #374785;
     
 }
 footer{
     display:flex;
-    width: 60%;
+    width: 82%;
     margin: 0 auto;
     padding: 1em;
     align-content: center;
@@ -129,7 +141,14 @@ footer{
 
 
 /* Class Specific Styles */
+.headerContainer{
+    width: 100%;
+    
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 
+}
 .responsive {
     width: 100%;
     height: auto;
@@ -148,52 +167,52 @@ footer{
     border-bottom: solid white .1em;
 }
 
-.button {
-    background-color: #F76C6C; /* Green */
-    border: none;
-    color: white;
-    padding: .8rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: .8rem;
-    
-  }
+
 
 .fakeButton {
     background-color: #f8e9a1; /* Green */
     border: none;
     color: #243053;
-    padding: 15px 32px;
+    padding: 1rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+
   }
 
 .salesBox{
+    width: 82%;
     padding: 10px;
-    margin: 5px auto;
+    margin: 0 auto;
     background-color: #243053;
     color:white;
-    border-top: solid white .1em;
-    border-bottom: solid white .1em;
+    border: solid white .1em;
+    border-radius: 15%;
+    
 }
 .colorBox1{
-    background-color: #F76C6C;
-    color:white;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    width: 75%;
+    margin: 1rem auto;
+    background-color: #f8e9a1;
+    color:#243053;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    
 }
 .colorBox2{
-    background-color: #243053;
+    background-color: #F76C6C;
     color:white;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* Late Additions */
+    border: 1px #243053 solid;
+    margin: 0.5rem 0.4rem;
 }
-
-
-
+.specialText{
+    text-align: justify
+}
 
 /* IDs */
 #bottom{
