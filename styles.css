@@ -69,8 +69,8 @@ body{
     width: 100%;
 } 
 header{
-    display: flex;
-    flex-flow: row nowrap;
+    /* display: flex;
+    flex-flow: row nowrap; */
     min-height: .5em;
     width: 82%;
     margin: 0 auto;
@@ -85,8 +85,9 @@ nav{
 a{
     text-decoration: none;
     font-size: 1.2rem;
-    color: #F76C6C;
+    color:#243053;
     padding: 1rem;
+    background-color: #F76C6C;
 }
 
 h1{
@@ -97,11 +98,15 @@ h2 {
     font-size: 1.3rem;
     text-align: center;
     margin-top: .2rem;
+    color: #243053;
+    border-bottom: #243053 solid .2rem;
 }
 p{
     /* font-size: 1.0rem;
     text-align: justify; */
     padding: 1rem;
+    color: #243053;
+    
     
 }
 main{
@@ -122,6 +127,9 @@ footer{
 }
 
 
+a:hover {
+    background-color: #f8e9a1;
+}
 
 
 
@@ -152,7 +160,6 @@ footer{
 .responsive {
     width: 100%;
     height: auto;
-    
   }
 .salesPitch{
     display:flex;
@@ -176,7 +183,6 @@ footer{
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 1.8rem;
 
   }
@@ -194,7 +200,7 @@ footer{
 .colorBox1{
     width: 75%;
     margin: 1rem auto;
-    background-color: #f8e9a1;
+    background-color: #A8D0E6;
     color:#243053;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -202,7 +208,7 @@ footer{
     
 }
 .colorBox2{
-    background-color: #F76C6C;
+    background-color: #f8e9a1;
     color:white;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -216,5 +222,49 @@ footer{
 
 /* IDs */
 #bottom{
-    margin: 0 auto;
+    margin: 1rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media*/
+@media screen and (max-width: 1024px){
+    /* Site runs fine at 1024 */
+}
+@media screen and (max-width: 800px){
+    .headerContainer{
+        flex-flow: column wrap;
+    }
+    nav{
+        display:flex;
+        justify-content: space-evenly;
+        background-color: #F76C6C;
+        
+    }
+    a{
+        color: #243053;
+        border: 1px solid #243053;
+    }
+    
+}
+@media screen and (max-width: 650px){
+    img{
+        display:none;
+    }
+    .divContainer{
+        flex-flow: column nowrap;
+    }
+}
+@media screen and (max-width: 500px){
+    nav{
+        justify-content: space-evenly;
+    }
 }
