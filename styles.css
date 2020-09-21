@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/**********************/
+/*Styling Begins Here */
+/**********************/
+/* 
+Color Scheme:
+(Test)
+#F8E9A1 _ yellowy
+#F76C6C _ salmon
+#A8D0E6 _ light blue
+#374785 _ medium blue
+#243053 _ dark blue
+*/
+
+
+/* Semantic Styles */
+body{
+    background-color: #374785;
+    color: #F76C6C;
+    width: 100%;
+} 
+header{
+    /* display: flex;
+    flex-flow: row nowrap; */
+    min-height: .5em;
+    width: 82%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+/* Added Later */
+    background-color: #374785;
+    
+}
+nav{
+    padding:1rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#243053;
+    padding: 1rem;
+    background-color: #F76C6C;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Palatino', Arial, Helvetica, sans-serif
+}
+h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: .2rem;
+    color: #243053;
+    border-bottom: #243053 solid .2rem;
+}
+p{
+    /* font-size: 1.0rem;
+    text-align: justify; */
+    padding: 1rem;
+    color: #243053;
+    
+    
+}
+main{
+    width: 82%;
+    margin: 0 auto;
+    display:flex;
+    flex-flow: row nowrap;
+    /* Added Later */
+    background-color: #374785;
+    
+}
+footer{
+    display:flex;
+    width: 82%;
+    margin: 0 auto;
+    padding: 1em;
+    align-content: center;
+}
+
+
+a:hover {
+    background-color: #f8e9a1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Class Specific Styles */
+.headerContainer{
+    width: 100%;
+    
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.salesPitch{
+    display:flex;
+    flex-flow: column nowrap;
+    border-bottom: solid white .1em;
+}
+
+.divContainer{
+    display:flex;
+    flex-flow: row nowrap;
+   
+    border-bottom: solid white .1em;
+}
+
+
+
+.fakeButton {
+    background-color: #f8e9a1; /* Green */
+    border: none;
+    color: #243053;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+
+  }
+
+.salesBox{
+    width: 82%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #243053;
+    color:white;
+    border: solid white .1em;
+    border-radius: 15%;
+    
+}
+.colorBox1{
+    width: 75%;
+    margin: 1rem auto;
+    background-color: #A8D0E6;
+    color:#243053;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    
+}
+.colorBox2{
+    background-color: #f8e9a1;
+    color:white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* Late Additions */
+    border: 1px #243053 solid;
+    margin: 0.5rem 0.4rem;
+}
+.specialText{
+    text-align: justify
+}
+
+/* IDs */
+#bottom{
+    margin: 1rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media*/
+@media screen and (max-width: 1024px){
+    /* Site runs fine at 1024 */
+}
+@media screen and (max-width: 800px){
+    .headerContainer{
+        flex-flow: column wrap;
+    }
+    nav{
+        display:flex;
+        justify-content: space-evenly;
+        background-color: #F76C6C;
+        
+    }
+    a{
+        color: #243053;
+        border: 1px solid #243053;
+    }
+    
+}
+@media screen and (max-width: 650px){
+    img{
+        display:none;
+    }
+    .divContainer{
+        flex-flow: column nowrap;
+    }
+}
+@media screen and (max-width: 500px){
+    nav{
+        justify-content: space-evenly;
+    }
+}
