@@ -216,7 +216,6 @@ a:hover {
     border: 1px #243053 solid;
     margin: 0.5rem 0.4rem;
 }
-
 .specialText{
     text-align: justify
 }
@@ -268,43 +267,4 @@ a:hover {
     nav{
         justify-content: space-evenly;
     }
-}
-
-
-
-
-
-/* About page Specific */
-.roster{
-    width: 100%;
-    display:flex;
-    flex-flow: column wrap;
-}
-.department{
-    width: 100%;
-    display:flex;
-    flex-flow: row nowrap;
-}
-.titleBox{
-    width: 100%;
-    background-color: #A8D0E6;
-    color:#243053;
-    text-align: center;
-}
-.frontEndTeam{
-    width: 50%;
-    display:flex;
-    flex-flow: row wrap;
-}
-.backEndTeam{
-    width: 50%;
-    display:flex;
-    flex-flow: row wrap;
-}
-
-
-.teamMate{
-    background-color: #f8e9a1;
-    color: #243053;
-    border: solid 1px #243053;
 }
