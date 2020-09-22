@@ -106,7 +106,7 @@ p{
     text-align: justify; */
     padding: 1rem;
     color: #243053;
-    
+    font-family: 'Encode Sans', sans-serif;
     
 }
 main{
@@ -275,6 +275,14 @@ a:hover {
 
 
 /* About page Specific */
+h4{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Rock Salt', cursive;
+    padding: 1em;
+    border-bottom: 1px solid #243053
+}
+
 .roster{
     width: 100%;
     display:flex;
@@ -290,21 +298,69 @@ a:hover {
     background-color: #A8D0E6;
     color:#243053;
     text-align: center;
+    border: 1px solid #243053;
+}
+.titleBox h2 {
+    font-size: 2em;
+}
+.department{
+    display:flex;
+    flex-flow: column nowrap;
+    margin: 0 .2rem;
 }
 .frontEndTeam{
-    width: 50%;
+    width: 100%;
     display:flex;
     flex-flow: row wrap;
 }
 .backEndTeam{
-    width: 50%;
+    width: 100%;
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 
 
-.teamMate{
+.teamMateF{
+    margin: .2rem auto;
+    width: 45%;
     background-color: #f8e9a1;
     color: #243053;
     border: solid 1px #243053;
+    border-radius: 10%;
+}
+.teamMateF img {
+    max-width: 40%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+}
+.teamMateB{
+    margin: .2rem auto;
+    width: 100%;
+    background-color: #f8e9a1;
+    color: #243053;
+    border: solid 1px #243053;
+    border-radius: 10%;
+    height: auto;
+}
+.teamMateB img {
+    max-width: 40%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.unitInfo{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.unitInfo p{
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+
+    
 }
