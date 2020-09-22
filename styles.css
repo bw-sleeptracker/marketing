@@ -276,11 +276,24 @@ a:hover {
 
 /* About page Specific */
 h4{
-    text-align: center;
-    font-size: 1.2em;
+    font-size: 2.5em;
     font-family: 'Rock Salt', cursive;
+    
+    color: #f8e9a1;
+    padding: 1rem;
+}
+h5{
+    font-size: 2em;
+    color: #F76C6C;
+    padding: 2rem;
+    font-family: 'Rock Salt', cursive;
+}
+h6{
+    text-align: center;
+    font-size: 2em;
+    /* font-family: 'Rock Salt', cursive; */
+    font-family: 'Encode Sans', sans-serif;
     padding: 1em;
-    border-bottom: 1px solid #243053
 }
 
 .roster{
@@ -295,14 +308,10 @@ h4{
 }
 .titleBox{
     width: 100%;
-    background-color: #A8D0E6;
     color:#243053;
     text-align: center;
-    border: 1px solid #243053;
 }
-.titleBox h2 {
-    font-size: 2em;
-}
+
 .department{
     display:flex;
     flex-flow: column nowrap;
@@ -314,7 +323,8 @@ h4{
     flex-flow: row wrap;
 }
 .backEndTeam{
-    width: 100%;
+    margin: 0 auto;
+    width: 75%;
     display:flex;
     flex-flow: column wrap;
 }
@@ -328,12 +338,7 @@ h4{
     border: solid 1px #243053;
     border-radius: 10%;
 }
-.teamMateF img {
-    max-width: 40%;
-    height: auto;
-    display: inline-block;
-    margin: 0 auto;
-}
+
 .teamMateB{
     margin: .2rem auto;
     width: 100%;
@@ -343,20 +348,29 @@ h4{
     border-radius: 10%;
     height: auto;
 }
-.teamMateB img {
-    max-width: 40%;
-    height: auto;
-    display: inline-block;
-    margin: 0 auto;
-}
 
-.unitInfo{
+.gitInfo{
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+    border-bottom: 1px solid #243053;
+}
+.gitInfo img{
+    max-width: 32px;
+    display: inline;
+}
+.gitInfo p{
+    font-size: 1.4em;
+}
+.textInfo{
+    display:flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
 }
-.unitInfo p{
+.textInfo p{
     margin: 0 auto;
     padding: 1em;
     text-align: center;
