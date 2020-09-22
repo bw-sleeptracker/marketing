@@ -66,7 +66,8 @@ Color Scheme:
 body{
     background-color: #374785;
     color: #F76C6C;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 } 
 header{
     /* display: flex;
@@ -230,50 +231,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
-/* Media*/
-@media screen and (max-width: 1024px){
-    /* Site runs fine at 1024 */
-}
-@media screen and (max-width: 800px){
-    .headerContainer{
-        flex-flow: column wrap;
-    }
-    nav{
-        display:flex;
-        justify-content: space-evenly;
-        background-color: #F76C6C;
-        
-    }
-    a{
-        color: #243053;
-        border: 1px solid #243053;
-    }
-    
-}
-@media screen and (max-width: 650px){
-    img{
-        display:none;
-    }
-    .divContainer{
-        flex-flow: column nowrap;
-    }
-}
-@media screen and (max-width: 500px){
-    nav{
-        justify-content: space-evenly;
-    }
-}
-
-
-
-
-
 /* About page Specific */
 h4{
     font-size: 2.5em;
@@ -298,6 +255,8 @@ h6{
 
 .roster{
     width: 100%;
+    padding-top: 1rem;
+    margin-top: 1rem;
     display:flex;
     flex-flow: column wrap;
 }
@@ -315,24 +274,24 @@ h6{
 .department{
     display:flex;
     flex-flow: column nowrap;
-    margin: 0 .2rem;
+    margin: 1rem .2rem;
 }
-.frontEndTeam{
+.EndTeam{
     width: 100%;
     display:flex;
     flex-flow: row wrap;
 }
-.backEndTeam{
+/* .backEndTeam{
     margin: 0 auto;
     width: 75%;
     display:flex;
     flex-flow: column wrap;
-}
+} */
 
 
 .teamMateF{
     margin: .2rem auto;
-    width: 45%;
+    width: 40%;
     background-color: #f8e9a1;
     color: #243053;
     border: solid 1px #243053;
@@ -341,7 +300,7 @@ h6{
 
 .teamMateB{
     margin: .2rem auto;
-    width: 100%;
+    width: 40%;
     background-color: #f8e9a1;
     color: #243053;
     border: solid 1px #243053;
@@ -361,6 +320,9 @@ h6{
     max-width: 32px;
     display: inline;
 }
+.gitInfo img:hover{
+    background-color: #F76C6C;
+}
 .gitInfo p{
     font-size: 1.4em;
 }
@@ -375,6 +337,63 @@ h6{
     padding: 1em;
     text-align: center;
     font-family: 'Encode Sans', sans-serif;
+}
 
+
+
+
+
+
+
+
+
+/* Media*/
+@media screen and (max-width: 1024px){
+    .headerContainer{
+        flex-flow: column wrap;
+    }
+    nav{
+        display:flex;
+        justify-content: space-evenly;
+        background-color: #F76C6C;
+        
+    }
+    a{
+        color: #243053;
+        border: 1px solid #243053;
+}
+@media screen and (max-width: 750px){
     
+    }
+    .EndTeam{
+    flex-flow:column wrap;
+    }
+    .teamMateF{
+        width: 75%;
+    }
+    .teamMateB{
+        width: 75%;
+    }
+    
+}
+@media screen and (max-width: 650px){
+    img{
+        display:none;
+    }
+    .divContainer{
+        flex-flow: column nowrap;
+    }
+}
+@media screen and (max-width: 550px){
+    nav{
+        width: 100%;
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-content: center;
+        margin: 0 auto;
+        text-align: center;
+        border: none;
+    }
+
 }
