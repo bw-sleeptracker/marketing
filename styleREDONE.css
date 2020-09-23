@@ -1,0 +1,83 @@
+/* Media*/
+@media screen and (max-width: 1024px){
+    .headerContainer{
+        flex-flow: column wrap;
+    }
+    nav{
+        display:flex;
+        justify-content: space-evenly;
+        background-color: #F76C6C;
+        
+    }
+    a{
+        color: #243053;
+        border: 1px solid #243053;
+}
+@media screen and (max-width: 750px){
+    
+    }
+    .EndTeam{
+    flex-flow:column wrap;
+    }
+    .teamMateF{
+        width: 75%;
+    }
+    .teamMateB{
+        width: 75%;
+    }
+    .gitInfo{
+        display:none;
+    }
+    .textInfo{
+        display:none;
+    }
+}
+@media screen and (max-width: 650px){
+    img{
+        display:none;
+    }
+    .divContainer{
+        flex-flow: column nowrap;
+    }
+}
+@media screen and (max-width: 550px){
+    nav{
+        width: 100%;
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-content: center;
+        margin: 0 auto;
+        text-align: center;
+        border: none;
+    }
+
+    .teamMateF :hover{
+        background-color: #F76C6C;
+    }
+    .teamMateB :hover{
+        background-color: #F76C6C;
+    }
+    .gitInfo{
+        display:none;
+    }
+    .textInfo{
+        display:none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 750px){
+    
+}
+@media screen and (max-width: 650px){
+
+}
+@media screen and (max-width: 550px){
+
+}

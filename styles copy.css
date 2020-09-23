@@ -66,8 +66,7 @@ Color Scheme:
 body{
     background-color: #374785;
     color: #F76C6C;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
 } 
 header{
     /* display: flex;
@@ -107,7 +106,7 @@ p{
     text-align: justify; */
     padding: 1rem;
     color: #243053;
-    font-family: 'Encode Sans', sans-serif;
+    
     
 }
 main{
@@ -217,7 +216,6 @@ a:hover {
     border: 1px #243053 solid;
     margin: 0.5rem 0.4rem;
 }
-
 .specialText{
     text-align: justify
 }
@@ -231,116 +229,6 @@ a:hover {
 
 
 
-/* About page Specific */
-h4{
-    font-size: 2.5em;
-    font-family: 'Rock Salt', cursive;
-    
-    color: #f8e9a1;
-    padding: 1rem;
-}
-h5{
-    font-size: 2em;
-    color: #F76C6C;
-    padding: 2rem;
-    font-family: 'Rock Salt', cursive;
-}
-h6{
-    text-align: center;
-    font-size: 2em;
-    /* font-family: 'Rock Salt', cursive; */
-    font-family: 'Encode Sans', sans-serif;
-    padding: 1em;
-}
-
-.roster{
-    width: 100%;
-    padding-top: 1rem;
-    margin-top: 1rem;
-    display:flex;
-    flex-flow: column wrap;
-}
-.department{
-    width: 100%;
-    display:flex;
-    flex-flow: row nowrap;
-}
-.titleBox{
-    width: 100%;
-    color:#243053;
-    text-align: center;
-}
-
-.department{
-    display:flex;
-    flex-flow: column nowrap;
-    margin: 1rem .2rem;
-}
-.EndTeam{
-    width: 100%;
-    display:flex;
-    flex-flow: row wrap;
-}
-/* .backEndTeam{
-    margin: 0 auto;
-    width: 75%;
-    display:flex;
-    flex-flow: column wrap;
-} */
-
-
-.teamMateF{
-    margin: .2rem auto;
-    width: 40%;
-    background-color: #f8e9a1;
-    color: #243053;
-    border: solid 1px #243053;
-    border-radius: 10%;
-}
-
-.teamMateB{
-    margin: .2rem auto;
-    width: 40%;
-    background-color: #f8e9a1;
-    color: #243053;
-    border: solid 1px #243053;
-    border-radius: 10%;
-    height: auto;
-}
-
-.gitInfo{
-    display:flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 1rem;
-    border-bottom: 1px solid #243053;
-}
-.gitInfo img{
-    max-width: 32px;
-    display: inline;
-}
-.gitInfo img:hover{
-    background-color: #F76C6C;
-}
-.gitInfo p{
-    font-size: 1.4em;
-}
-.textInfo{
-    display:flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-.textInfo p{
-    margin: 0 auto;
-    padding: 1em;
-    text-align: center;
-    font-family: 'Encode Sans', sans-serif;
-}
-
-
-
 
 
 
@@ -349,6 +237,9 @@ h6{
 
 /* Media*/
 @media screen and (max-width: 1024px){
+    /* Site runs fine at 1024 */
+}
+@media screen and (max-width: 800px){
     .headerContainer{
         flex-flow: column wrap;
     }
@@ -361,18 +252,6 @@ h6{
     a{
         color: #243053;
         border: 1px solid #243053;
-}
-@media screen and (max-width: 750px){
-    
-    }
-    .EndTeam{
-    flex-flow:column wrap;
-    }
-    .teamMateF{
-        width: 75%;
-    }
-    .teamMateB{
-        width: 75%;
     }
     
 }
@@ -384,16 +263,8 @@ h6{
         flex-flow: column nowrap;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 500px){
     nav{
-        width: 100%;
-        display:flex;
-        flex-flow: column nowrap;
         justify-content: space-evenly;
-        align-content: center;
-        margin: 0 auto;
-        text-align: center;
-        border: none;
     }
-
 }
