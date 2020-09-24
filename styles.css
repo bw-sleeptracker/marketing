@@ -83,7 +83,14 @@ header{
 nav{
     padding:1rem;
 }
-a{
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#243053;
+    padding: 1rem;
+    background-color: #F76C6C;
+}
+footer a{
     text-decoration: none;
     font-size: 1.2rem;
     color:#243053;
@@ -126,7 +133,9 @@ footer{
     padding: 1em;
     align-content: center;
 }
-
+a{
+    text-decoration: none;
+}
 
 a:hover {
     background-color: #f8e9a1;
